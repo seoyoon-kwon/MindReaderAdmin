@@ -1,0 +1,13 @@
+<kendo-chart title="Kendo-Pie Chart">
+  <kendo-chart-legend position="bottom"></kendo-chart-legend>
+  <kendo-chart-series>
+    <kendo-chart-series-item
+            type="pie"
+            [data]="pieData"
+            field="value"
+            categoryField="category"
+            [labels]="{ visible: true, content: labelContent }"
+    >
+    </kendo-chart-series-item>
+  </kendo-chart-series>
+</kendo-chart>

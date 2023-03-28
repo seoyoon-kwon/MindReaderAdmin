@@ -1,0 +1,14 @@
+<mat-nav-list>
+  <a
+    *ngFor="let item of routes"
+    mat-list-item
+    [routerLinkActive]="'active'"
+    [routerLink]="['/', item.path]"
+  >
+    <mat-icon class="sidenav-icon">{{ item.data.icon }}</mat-icon>
+    {{ item.data.text }}
+  </a>
+  <a mat-list-item [routerLinkActive]="'active'" [routerLink]="['/blank-page']">
+    <mat-icon class="sidenav-icon">insert_drive_file</mat-icon>Blank Page
+  </a>
+</mat-nav-list>

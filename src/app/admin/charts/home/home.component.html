@@ -1,0 +1,44 @@
+
+<kendo-tilelayout
+        [columns]="4"
+        [columnWidth]="300"
+        [rowHeight]="700"
+        [resizable]="true"
+        [reorderable]="true">
+  <kendo-tilelayout-item title="Bar chart" [col]="1" [colSpan]="2">
+    <kendo-tilelayout-item-body>
+      <app-bar-chart></app-bar-chart>
+    </kendo-tilelayout-item-body>
+  </kendo-tilelayout-item>
+
+  <kendo-tilelayout-item title="Donut chart" [col]="3" [colSpan]="2">
+    <kendo-tilelayout-item-body>
+      <app-donut-chart ></app-donut-chart>
+    </kendo-tilelayout-item-body>
+  </kendo-tilelayout-item>
+
+  <kendo-tilelayout-item title="Radar chart" [col]="1" [colSpan]="2">
+    <kendo-tilelayout-item-body>
+      <app-radar-chart ></app-radar-chart>
+    </kendo-tilelayout-item-body>
+  </kendo-tilelayout-item>
+
+  <kendo-tilelayout-item title="Pie chart" [col]="3" [colSpan]="2">
+    <kendo-tilelayout-item-body>
+      <app-pie-chart ></app-pie-chart>
+    </kendo-tilelayout-item-body>
+  </kendo-tilelayout-item>
+
+  <kendo-tilelayout-item title="Line chart" [col]="1" [colSpan]="2">
+    <kendo-tilelayout-item-body>
+      <app-line-chart ></app-line-chart>
+    </kendo-tilelayout-item-body>
+  </kendo-tilelayout-item>
+
+  <kendo-tilelayout-item title="Polar Area chart" [col]="3" [colSpan]="2">
+    <kendo-tilelayout-item-body>
+      <app-polar-chart ></app-polar-chart>
+    </kendo-tilelayout-item-body>
+  </kendo-tilelayout-item>
+</kendo-tilelayout>
+
